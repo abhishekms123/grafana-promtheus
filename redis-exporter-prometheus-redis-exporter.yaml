@@ -48,7 +48,7 @@ spec:
             secretKeyRef:
               key: redis-pwd
               name: redis-exporter-secret
-        image: oliver006/redis_exporter:v1.27.0
+        image: oliver006/redis_exporter:v1.51.0
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 3
